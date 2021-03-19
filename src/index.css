@@ -4,4 +4,6 @@ body {
   font-family: sans-serif;
   background-image: url('./images/sw-bg.jpg');
   background-size: cover;
+  /* I added this property just to stop the bg image from repeating over empty space */
+  background-repeat: no-repeat;
 }

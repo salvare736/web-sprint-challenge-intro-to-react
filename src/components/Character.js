@@ -2,14 +2,36 @@
 import React from 'react';
 import styled from 'styled-components';
 
+const CharacterContainer = styled.div`
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    padding: 1%;
+    margin: 2%;
+    border: 3px double black;
+    backdrop-filter: blur(10px);
+`
+
+const CharacterName = styled.h1`
+`
+
+const CharacterBirthYear = styled.h2`
+`
+
 const Character = (props) => {
     const { characterName, characterBirthYear } = props
 
     return (
-        <div>
-            <h1>{characterName}</h1>
-            <h2>{characterBirthYear}</h2>
-        </div>
+        <CharacterContainer>
+            <CharacterName>
+                {characterName}
+            </CharacterName>
+            <CharacterBirthYear>
+                {characterBirthYear}
+            </CharacterBirthYear>
+        </CharacterContainer>
     );
 };
 

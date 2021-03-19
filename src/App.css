@@ -1,6 +1,11 @@
+/* since the .App class was the div I wanted to manipulate, I just turned it into a flexbox directly */
+
 .App {
-  text-align: center;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
 }
+
 .Header {
   color: #443e3e;
   text-shadow: 1px 1px 5px #fff;
