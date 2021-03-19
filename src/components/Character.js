@@ -3,11 +3,12 @@ import React from 'react';
 import styled from 'styled-components';
 
 const Character = (props) => {
-    const { characterData } = props
+    const { characterName, characterBirthYear } = props
 
     return (
         <div>
-            <p>Character component is rendering!</p>
+            <h1>{characterName}</h1>
+            <h2>{characterBirthYear}</h2>
         </div>
     );
 };
