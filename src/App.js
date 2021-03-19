@@ -25,7 +25,7 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1 className="Header">Characters</h1>
+      <h1 className="Header">STAR WARS BIRTH YEARS</h1>
       {characterData && characterData.map(char => {
         return <Character
         key={char.created}

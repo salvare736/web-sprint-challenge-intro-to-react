@@ -1,4 +1,4 @@
-/* since the .App class was the div I wanted to manipulate, I just turned it into a flexbox directly */
+/* since the .App class was the div I wanted to manipulate, I just turned it into a flexbox directly; likewise, I modified the styling of the Header directly */
 
 .App {
   display: flex;
@@ -7,7 +7,11 @@
 }
 
 .Header {
-  color: #443e3e;
-  text-shadow: 1px 1px 5px #fff;
+  color: #222831;
+  text-shadow:
+  2px 2px 1px #dddddd,
+  3px 3px 1px #f05454;
+  font-weight: bold;
+  font-size: xx-large;
 }
 /* write your parent styles in here for your App.js */
