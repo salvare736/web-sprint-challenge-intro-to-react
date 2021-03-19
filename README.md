@@ -54,6 +54,7 @@ You are expected to be able to answer questions in these areas. Your responses c
 - [ ] With the server up and running, open Chrome and head over to `localhost:3000` and view your beautiful app. Maybe it's not _that_ pretty... _yet_, your goal is to ensure this project becomes a thing of beauty.
 - [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly
 - [ ] Push commits: `git push origin <firstName-lastName>`
+   X
 
 ### Task 2: Project Requirements
 
