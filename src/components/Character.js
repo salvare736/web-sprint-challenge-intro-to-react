@@ -16,8 +16,8 @@ const CharacterContainer = styled.div`
 
 const CharacterName = styled.h1`
     color: ${pr => pr.theme.black};
-    font-weight: bold;
     font-size: x-large;
+    font-family: 'Russo One', sans-serif;
 
     &:hover {
         color: ${pr => pr.theme.secondaryColor};
@@ -33,8 +33,8 @@ const CharacterName = styled.h1`
 
 const CharacterBirthYear = styled.h2`
     color: ${pr => pr.theme.black};
-    font-weight: bold;
     font-size: x-large;
+    font-family: 'Russo One', sans-serif;
 
     &:hover {
         color: ${pr => pr.theme.secondaryColor};
